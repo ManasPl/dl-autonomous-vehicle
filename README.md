@@ -52,7 +52,12 @@ client scripts to match your network, then:
 
 This project drives physical hardware over a local-network WebSocket
 connection, so it can't be hosted as a public live demo the way a web app
-can — see the project write-up for a demo video instead.
+can. Below is a recording of the gesture-recognition half of the pipeline
+running against a live webcam feed (the same MediaPipe `gesture_recognizer.task`
+model used by `manas/mp_demo.py`, ported to run in-browser), showing a
+recognized gesture mapping to a drive command:
+
+![Gesture recognition demo](docs/gesture-demo.gif)
 
 ## Attribution
 
